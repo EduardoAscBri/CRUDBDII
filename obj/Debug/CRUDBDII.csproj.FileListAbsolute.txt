@@ -9,3 +9,4 @@ C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.csproj.Genera
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.exe
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.pdb
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.Acciones.resources
+C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.Cuentas.resources

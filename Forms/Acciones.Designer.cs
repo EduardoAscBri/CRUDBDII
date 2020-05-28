@@ -238,6 +238,7 @@
             this.Name = "Acciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Acciones";
+            this.Load += new System.EventHandler(this.Acciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAcciones)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

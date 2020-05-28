@@ -124,6 +124,9 @@ namespace CRUDBDII.Forms
             this.txtFormaContacto.Text = row["FormaContacto"].ToString();
         }
 
+        private void Acciones_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

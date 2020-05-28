@@ -38,5 +38,11 @@ namespace CRUDBDII.Forms
             Acciones acciones = new Acciones(this.conexion);
             acciones.Show();
         }
+
+        private void bttCuentas_Click(object sender, EventArgs e)
+        {
+            Cuentas cuentas = new Cuentas(this.conexion);
+            cuentas.Show();
+        }
     }
 }

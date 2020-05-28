@@ -50,5 +50,11 @@ namespace CRUDBDII.Forms
             ProductosServicios productosServicios = new ProductosServicios(this.conexion);
             productosServicios.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AccionesDetalle accionesDetalle = new AccionesDetalle(this.conexion);
+            accionesDetalle.Show();
+        }
     }
 }

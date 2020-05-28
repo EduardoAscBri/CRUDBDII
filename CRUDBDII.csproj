@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\InnerDatabaseManager.cs" />
+    <Compile Include="Forms\AccionesDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AccionesDetalle.Designer.cs">
+      <DependentUpon>AccionesDetalle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Cuentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AccionesDetalle.resx">
+      <DependentUpon>AccionesDetalle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Cuentas.resx">
       <DependentUpon>Cuentas.cs</DependentUpon>
     </EmbeddedResource>

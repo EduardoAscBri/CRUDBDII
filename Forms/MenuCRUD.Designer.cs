@@ -31,6 +31,7 @@
             this.bttUsuarios = new System.Windows.Forms.Button();
             this.bttAcciones = new System.Windows.Forms.Button();
             this.bttCuentas = new System.Windows.Forms.Button();
+            this.bttProductosServicios = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttUsuarios
@@ -45,7 +46,7 @@
             // 
             // bttAcciones
             // 
-            this.bttAcciones.Location = new System.Drawing.Point(56, 91);
+            this.bttAcciones.Location = new System.Drawing.Point(56, 120);
             this.bttAcciones.Name = "bttAcciones";
             this.bttAcciones.Size = new System.Drawing.Size(370, 23);
             this.bttAcciones.TabIndex = 1;
@@ -63,12 +64,23 @@
             this.bttCuentas.UseVisualStyleBackColor = true;
             this.bttCuentas.Click += new System.EventHandler(this.bttCuentas_Click);
             // 
+            // bttProductosServicios
+            // 
+            this.bttProductosServicios.Location = new System.Drawing.Point(56, 91);
+            this.bttProductosServicios.Name = "bttProductosServicios";
+            this.bttProductosServicios.Size = new System.Drawing.Size(370, 23);
+            this.bttProductosServicios.TabIndex = 3;
+            this.bttProductosServicios.Text = "Productos / Servicios";
+            this.bttProductosServicios.UseVisualStyleBackColor = true;
+            this.bttProductosServicios.Click += new System.EventHandler(this.bttProductosServicios_Click);
+            // 
             // MenuCRUD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(484, 261);
+            this.Controls.Add(this.bttProductosServicios);
             this.Controls.Add(this.bttCuentas);
             this.Controls.Add(this.bttAcciones);
             this.Controls.Add(this.bttUsuarios);
@@ -84,5 +96,6 @@
         private System.Windows.Forms.Button bttUsuarios;
         private System.Windows.Forms.Button bttAcciones;
         private System.Windows.Forms.Button bttCuentas;
+        private System.Windows.Forms.Button bttProductosServicios;
     }
 }

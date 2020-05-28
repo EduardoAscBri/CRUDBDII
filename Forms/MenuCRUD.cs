@@ -44,5 +44,11 @@ namespace CRUDBDII.Forms
             Cuentas cuentas = new Cuentas(this.conexion);
             cuentas.Show();
         }
+
+        private void bttProductosServicios_Click(object sender, EventArgs e)
+        {
+            ProductosServicios productosServicios = new ProductosServicios(this.conexion);
+            productosServicios.Show();
+        }
     }
 }

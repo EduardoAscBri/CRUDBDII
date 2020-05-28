@@ -182,6 +182,7 @@
             this.Controls.Add(this.bttActualizar);
             this.Controls.Add(this.dgvUsuarios);
             this.Name = "Usuarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuarios";
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             this.ResumeLayout(false);

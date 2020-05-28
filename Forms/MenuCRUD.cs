@@ -32,5 +32,11 @@ namespace CRUDBDII.Forms
             Usuarios usuarios = new Usuarios(this.conexion);
             usuarios.Show();
         }
+
+        private void bttAcciones_Click(object sender, EventArgs e)
+        {
+            Acciones acciones = new Acciones(this.conexion);
+            acciones.Show();
+        }
     }
 }

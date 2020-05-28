@@ -53,6 +53,12 @@
     <Compile Include="Forms\MenuCRUD.Designer.cs">
       <DependentUpon>MenuCRUD.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Acciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Acciones.Designer.cs">
+      <DependentUpon>Acciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\MenuCRUD.resx">
       <DependentUpon>MenuCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Acciones.resx">
+      <DependentUpon>Acciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Usuarios.resx">
       <DependentUpon>Usuarios.cs</DependentUpon>

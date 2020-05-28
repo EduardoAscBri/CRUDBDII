@@ -8,3 +8,4 @@ C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Properties.Re
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.csproj.GenerateResource.cache
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.exe
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.pdb
+C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.Acciones.resources

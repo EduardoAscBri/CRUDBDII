@@ -51,7 +51,7 @@ namespace CRUDBDII.Forms
             {
                 //Actualizar registro
                 this.command = new SqlCommand("ActualizarCuenta", this.conexion);
-                this.command.Parameters.AddWithValue("@idCuenta", this.txtIdCuenta);
+                this.command.Parameters.AddWithValue("@idCuenta", this.txtIdCuenta.Text);
                 this.command.Parameters.AddWithValue("@Codigo", this.txtCodigo.Text);
                 this.command.Parameters.AddWithValue("@Nombre", this.txtNombreCompleto.Text);
                 this.command.Parameters.AddWithValue("@RFC", this.txtRFC.Text);

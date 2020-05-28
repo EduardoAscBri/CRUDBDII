@@ -20,3 +20,4 @@ C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.csproj.GenerateResource.
 C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.csproj.CoreCompileInputs.cache
 C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.exe
 C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.pdb
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.Forms.ProductosServicios.resources

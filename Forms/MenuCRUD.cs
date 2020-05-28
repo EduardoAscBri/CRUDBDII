@@ -32,5 +32,11 @@ namespace CRUDBDII.Forms
             Usuarios usuarios = new Usuarios(this.conexion);
             usuarios.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Cuentas cuentas = new Cuentas(this.conexion);
+            cuentas.Show();
+        }
     }
 }

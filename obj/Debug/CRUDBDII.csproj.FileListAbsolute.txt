@@ -8,3 +8,15 @@ C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Properties.Re
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.csproj.GenerateResource.cache
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.exe
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.pdb
+C:\Users\gamag\source\repos\CRUDBDII\bin\Debug\CRUDBDII.exe.config
+C:\Users\gamag\source\repos\CRUDBDII\bin\Debug\CRUDBDII.exe
+C:\Users\gamag\source\repos\CRUDBDII\bin\Debug\CRUDBDII.pdb
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.csprojAssemblyReference.cache
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.Forms.Cuentas.resources
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.Forms.MenuCRUD.resources
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.Forms.Usuarios.resources
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.Properties.Resources.resources
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.csproj.GenerateResource.cache
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.csproj.CoreCompileInputs.cache
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.exe
+C:\Users\gamag\source\repos\CRUDBDII\obj\Debug\CRUDBDII.pdb

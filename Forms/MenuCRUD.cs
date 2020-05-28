@@ -38,5 +38,11 @@ namespace CRUDBDII.Forms
             Cuentas cuentas = new Cuentas(this.conexion);
             cuentas.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ProductosServicios PS =new ProductosServicios(this.conexion);
+            PS.Show();
+        }
     }
 }

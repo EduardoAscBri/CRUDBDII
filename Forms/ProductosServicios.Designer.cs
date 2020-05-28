@@ -28,11 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cbAgentesServicios = new System.Windows.Forms.CheckBox();
-            this.cbAgenteVenta = new System.Windows.Forms.CheckBox();
-            this.cbClientes = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtTipoInt = new System.Windows.Forms.TextBox();
             this.bttLimpiar = new System.Windows.Forms.Button();
             this.bttEliminar = new System.Windows.Forms.Button();
             this.bttGuardar = new System.Windows.Forms.Button();
@@ -43,68 +38,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtIdProductoServicio = new System.Windows.Forms.TextBox();
             this.bttActualizar = new System.Windows.Forms.Button();
-            this.dgvCuentas = new System.Windows.Forms.DataGridView();
+            this.dgvProductoServicio = new System.Windows.Forms.DataGridView();
             this.txtInventario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCuentas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductoServicio)).BeginInit();
             this.SuspendLayout();
-            // 
-            // cbAgentesServicios
-            // 
-            this.cbAgentesServicios.AutoSize = true;
-            this.cbAgentesServicios.ForeColor = System.Drawing.Color.Snow;
-            this.cbAgentesServicios.Location = new System.Drawing.Point(463, 265);
-            this.cbAgentesServicios.Name = "cbAgentesServicios";
-            this.cbAgentesServicios.Size = new System.Drawing.Size(149, 21);
-            this.cbAgentesServicios.TabIndex = 67;
-            this.cbAgentesServicios.Text = "Agente de Servicio";
-            this.cbAgentesServicios.UseVisualStyleBackColor = true;
-            // 
-            // cbAgenteVenta
-            // 
-            this.cbAgenteVenta.AutoSize = true;
-            this.cbAgenteVenta.ForeColor = System.Drawing.Color.Snow;
-            this.cbAgenteVenta.Location = new System.Drawing.Point(321, 265);
-            this.cbAgenteVenta.Name = "cbAgenteVenta";
-            this.cbAgenteVenta.Size = new System.Drawing.Size(136, 21);
-            this.cbAgenteVenta.TabIndex = 66;
-            this.cbAgenteVenta.Text = "Agente de Venta";
-            this.cbAgenteVenta.UseVisualStyleBackColor = true;
-            // 
-            // cbClientes
-            // 
-            this.cbClientes.AutoSize = true;
-            this.cbClientes.ForeColor = System.Drawing.Color.Snow;
-            this.cbClientes.Location = new System.Drawing.Point(224, 265);
-            this.cbClientes.Name = "cbClientes";
-            this.cbClientes.Size = new System.Drawing.Size(80, 21);
-            this.cbClientes.TabIndex = 65;
-            this.cbClientes.Text = "Clientes";
-            this.cbClientes.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.LightGray;
-            this.label5.Location = new System.Drawing.Point(74, 267);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 17);
-            this.label5.TabIndex = 64;
-            this.label5.Text = "Tipo";
-            // 
-            // txtTipoInt
-            // 
-            this.txtTipoInt.Enabled = false;
-            this.txtTipoInt.Location = new System.Drawing.Point(118, 264);
-            this.txtTipoInt.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTipoInt.Name = "txtTipoInt";
-            this.txtTipoInt.Size = new System.Drawing.Size(75, 22);
-            this.txtTipoInt.TabIndex = 63;
             // 
             // bttLimpiar
             // 
@@ -115,6 +57,7 @@
             this.bttLimpiar.TabIndex = 62;
             this.bttLimpiar.Text = "Limpiar";
             this.bttLimpiar.UseVisualStyleBackColor = true;
+            this.bttLimpiar.Click += new System.EventHandler(this.bttLimpiar_Click);
             // 
             // bttEliminar
             // 
@@ -125,6 +68,7 @@
             this.bttEliminar.TabIndex = 61;
             this.bttEliminar.Text = "Eliminar";
             this.bttEliminar.UseVisualStyleBackColor = true;
+            this.bttEliminar.Click += new System.EventHandler(this.bttEliminar_Click);
             // 
             // bttGuardar
             // 
@@ -135,6 +79,7 @@
             this.bttGuardar.TabIndex = 60;
             this.bttGuardar.Text = "Guardar";
             this.bttGuardar.UseVisualStyleBackColor = true;
+            this.bttGuardar.Click += new System.EventHandler(this.bttGuardar_Click);
             // 
             // label4
             // 
@@ -203,16 +148,18 @@
             this.bttActualizar.TabIndex = 51;
             this.bttActualizar.Text = "Actualizar";
             this.bttActualizar.UseVisualStyleBackColor = true;
+            this.bttActualizar.Click += new System.EventHandler(this.bttActualizar_Click);
             // 
-            // dgvCuentas
+            // dgvProductoServicio
             // 
-            this.dgvCuentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCuentas.Location = new System.Drawing.Point(17, 348);
-            this.dgvCuentas.Margin = new System.Windows.Forms.Padding(4);
-            this.dgvCuentas.Name = "dgvCuentas";
-            this.dgvCuentas.RowHeadersWidth = 51;
-            this.dgvCuentas.Size = new System.Drawing.Size(1035, 185);
-            this.dgvCuentas.TabIndex = 50;
+            this.dgvProductoServicio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProductoServicio.Location = new System.Drawing.Point(17, 348);
+            this.dgvProductoServicio.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvProductoServicio.Name = "dgvProductoServicio";
+            this.dgvProductoServicio.RowHeadersWidth = 51;
+            this.dgvProductoServicio.Size = new System.Drawing.Size(1035, 185);
+            this.dgvProductoServicio.TabIndex = 50;
+            this.dgvProductoServicio.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductoServicio_CellDoubleClick);
             // 
             // txtInventario
             // 
@@ -281,11 +228,6 @@
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPrecio);
-            this.Controls.Add(this.cbAgentesServicios);
-            this.Controls.Add(this.cbAgenteVenta);
-            this.Controls.Add(this.cbClientes);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtTipoInt);
             this.Controls.Add(this.bttLimpiar);
             this.Controls.Add(this.bttEliminar);
             this.Controls.Add(this.bttGuardar);
@@ -298,21 +240,16 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtIdProductoServicio);
             this.Controls.Add(this.bttActualizar);
-            this.Controls.Add(this.dgvCuentas);
+            this.Controls.Add(this.dgvProductoServicio);
             this.Name = "ProductosServicios";
             this.Text = "ProductosServicios";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCuentas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductoServicio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.CheckBox cbAgentesServicios;
-        private System.Windows.Forms.CheckBox cbAgenteVenta;
-        private System.Windows.Forms.CheckBox cbClientes;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtTipoInt;
         private System.Windows.Forms.Button bttLimpiar;
         private System.Windows.Forms.Button bttEliminar;
         private System.Windows.Forms.Button bttGuardar;
@@ -323,7 +260,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtIdProductoServicio;
         private System.Windows.Forms.Button bttActualizar;
-        private System.Windows.Forms.DataGridView dgvCuentas;
+        private System.Windows.Forms.DataGridView dgvProductoServicio;
         private System.Windows.Forms.TextBox txtInventario;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPrecio;

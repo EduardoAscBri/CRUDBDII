@@ -30,12 +30,13 @@
         {
             this.bttUsuarios = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttUsuarios
             // 
             this.bttUsuarios.Location = new System.Drawing.Point(424, 57);
-            this.bttUsuarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.bttUsuarios.Name = "bttUsuarios";
             this.bttUsuarios.Size = new System.Drawing.Size(100, 28);
             this.bttUsuarios.TabIndex = 0;
@@ -54,15 +55,27 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(393, 206);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(158, 28);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Productos Servicios\r\n";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // MenuCRUD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.bttUsuarios);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MenuCRUD";
             this.Text = "Menu";
             this.ResumeLayout(false);
@@ -73,5 +86,6 @@
 
         private System.Windows.Forms.Button bttUsuarios;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

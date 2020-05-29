@@ -112,7 +112,7 @@ namespace CRUDBDII.Forms
                 //Crear registro
                 this.command = new SqlCommand("CrearAccion", this.conexion);
                 this.command.Parameters.AddWithValue("@idCuentaSolicitante", this.txtIdCuentaSolicitante.Text);
-                this.command.Parameters.AddWithValue("@idCuentaRealizante", this.txtIdCuentaSolicitante.Text);
+                this.command.Parameters.AddWithValue("@idCuentaRealizante", this.txtIdCuentaRealizante.Text);
                 this.command.Parameters.AddWithValue("@FechaInicio", this.dtpFechaInicio.Value);
                 this.command.Parameters.AddWithValue("@FechaFinal", this.dtpFechaInicio.Value);
                 this.command.Parameters.AddWithValue("@FormaContacto", Convert.ToInt32(this.txtFormaContacto.Text));
@@ -129,7 +129,7 @@ namespace CRUDBDII.Forms
                 this.command = new SqlCommand("ActualizarAccion", this.conexion);
                 this.command.Parameters.AddWithValue("idAccion", Convert.ToInt32(this.txtIdAccion.Text));
                 this.command.Parameters.AddWithValue("@idCuentaSolicitante", this.txtIdCuentaSolicitante.Text);
-                this.command.Parameters.AddWithValue("@idCuentaRealizante", this.txtIdCuentaSolicitante.Text);
+                this.command.Parameters.AddWithValue("@idCuentaRealizante", this.txtIdCuentaRealizante.Text);
                 this.command.Parameters.AddWithValue("@FechaInicio", this.dtpFechaInicio.Value);
                 this.command.Parameters.AddWithValue("@FechaFinal", this.dtpFechaInicio.Value);
                 this.command.Parameters.AddWithValue("@FormaContacto", Convert.ToInt32(this.txtFormaContacto.Text));

@@ -77,7 +77,7 @@ namespace CRUDBDII.Forms
 
         private void bttReporteCuentas_Click(object sender, EventArgs e)
         {
-            Consultas consultas = new Consultas("Cuentas", this.conexion);
+            Consultas consultas = new Consultas("ReporteCuentas", this.conexion);
             consultas.Show();
         }
     }

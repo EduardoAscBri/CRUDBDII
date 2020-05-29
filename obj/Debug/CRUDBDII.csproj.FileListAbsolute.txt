@@ -12,3 +12,4 @@ C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.Accione
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.Cuentas.resources
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.ProductosServicios.resources
 C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.AccionesDetalle.resources
+C:\Users\Eduardo\source\repos\CRUDBDII\CRUDBDII\obj\Debug\CRUDBDII.Forms.Consultas.resources

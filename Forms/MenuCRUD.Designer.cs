@@ -33,6 +33,10 @@
             this.bttCuentas = new System.Windows.Forms.Button();
             this.bttProductosServicios = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.bttAccionesEnDetalle = new System.Windows.Forms.Button();
+            this.bttAccionesEnResumen = new System.Windows.Forms.Button();
+            this.bttInventarios = new System.Windows.Forms.Button();
+            this.bttReporteCuentas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttUsuarios
@@ -85,12 +89,56 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // bttAccionesEnDetalle
+            // 
+            this.bttAccionesEnDetalle.Location = new System.Drawing.Point(56, 198);
+            this.bttAccionesEnDetalle.Name = "bttAccionesEnDetalle";
+            this.bttAccionesEnDetalle.Size = new System.Drawing.Size(370, 23);
+            this.bttAccionesEnDetalle.TabIndex = 5;
+            this.bttAccionesEnDetalle.Text = "Acciones en detalle";
+            this.bttAccionesEnDetalle.UseVisualStyleBackColor = true;
+            this.bttAccionesEnDetalle.Click += new System.EventHandler(this.bttAccionesEnDetalle_Click);
+            // 
+            // bttAccionesEnResumen
+            // 
+            this.bttAccionesEnResumen.Location = new System.Drawing.Point(56, 227);
+            this.bttAccionesEnResumen.Name = "bttAccionesEnResumen";
+            this.bttAccionesEnResumen.Size = new System.Drawing.Size(370, 23);
+            this.bttAccionesEnResumen.TabIndex = 6;
+            this.bttAccionesEnResumen.Text = "Acciones en resumen";
+            this.bttAccionesEnResumen.UseVisualStyleBackColor = true;
+            this.bttAccionesEnResumen.Click += new System.EventHandler(this.bttAccionesEnResumen_Click);
+            // 
+            // bttInventarios
+            // 
+            this.bttInventarios.Location = new System.Drawing.Point(56, 285);
+            this.bttInventarios.Name = "bttInventarios";
+            this.bttInventarios.Size = new System.Drawing.Size(370, 23);
+            this.bttInventarios.TabIndex = 7;
+            this.bttInventarios.Text = "Inventarios";
+            this.bttInventarios.UseVisualStyleBackColor = true;
+            this.bttInventarios.Click += new System.EventHandler(this.bttInventarios_Click);
+            // 
+            // bttReporteCuentas
+            // 
+            this.bttReporteCuentas.Location = new System.Drawing.Point(56, 256);
+            this.bttReporteCuentas.Name = "bttReporteCuentas";
+            this.bttReporteCuentas.Size = new System.Drawing.Size(370, 23);
+            this.bttReporteCuentas.TabIndex = 8;
+            this.bttReporteCuentas.Text = "Cuentas";
+            this.bttReporteCuentas.UseVisualStyleBackColor = true;
+            this.bttReporteCuentas.Click += new System.EventHandler(this.bttReporteCuentas_Click);
+            // 
             // MenuCRUD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.ClientSize = new System.Drawing.Size(484, 261);
+            this.ClientSize = new System.Drawing.Size(484, 331);
+            this.Controls.Add(this.bttReporteCuentas);
+            this.Controls.Add(this.bttInventarios);
+            this.Controls.Add(this.bttAccionesEnResumen);
+            this.Controls.Add(this.bttAccionesEnDetalle);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.bttProductosServicios);
             this.Controls.Add(this.bttCuentas);
@@ -110,5 +158,9 @@
         private System.Windows.Forms.Button bttCuentas;
         private System.Windows.Forms.Button bttProductosServicios;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bttAccionesEnDetalle;
+        private System.Windows.Forms.Button bttAccionesEnResumen;
+        private System.Windows.Forms.Button bttInventarios;
+        private System.Windows.Forms.Button bttReporteCuentas;
     }
 }

@@ -56,5 +56,29 @@ namespace CRUDBDII.Forms
             AccionesDetalle accionesDetalle = new AccionesDetalle(this.conexion);
             accionesDetalle.Show();
         }
+
+        private void bttAccionesEnDetalle_Click(object sender, EventArgs e)
+        {
+            Consultas consultas = new Consultas("AccionesEnDetalle", this.conexion);
+            consultas.Show();
+        }
+
+        private void bttAccionesEnResumen_Click(object sender, EventArgs e)
+        {
+            Consultas consultas = new Consultas("AccionesEnResumen", this.conexion);
+            consultas.Show();
+        }
+
+        private void bttInventarios_Click(object sender, EventArgs e)
+        {
+            Consultas consultas = new Consultas("Inventarios", this.conexion);
+            consultas.Show();
+        }
+
+        private void bttReporteCuentas_Click(object sender, EventArgs e)
+        {
+            Consultas consultas = new Consultas("Cuentas", this.conexion);
+            consultas.Show();
+        }
     }
 }

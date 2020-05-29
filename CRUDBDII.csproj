@@ -53,6 +53,12 @@
     <Compile Include="Forms\AccionesDetalle.Designer.cs">
       <DependentUpon>AccionesDetalle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Consultas.Designer.cs">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Cuentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AccionesDetalle.resx">
       <DependentUpon>AccionesDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Consultas.resx">
+      <DependentUpon>Consultas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Cuentas.resx">
       <DependentUpon>Cuentas.cs</DependentUpon>
